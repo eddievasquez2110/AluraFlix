@@ -1,0 +1,31 @@
+.contenedor_banner{
+    position: relative;
+   
+    display: flex;
+}
+
+.contenedor_banner img {
+    width: 100%;
+}
+
+.contenedor_subBanner {
+    position: absolute;
+    columns: 2;
+    padding: 90px;
+    padding-top: 250px;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.contenedor_titulo {
+    color: white;
+}
+
+.titulo {
+    background-color: #6BD1FF;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}

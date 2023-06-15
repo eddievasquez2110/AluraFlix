@@ -1,7 +1,7 @@
 
 import "./Header.css";
 import Boton from '../Boton/Index';
-import { Link } from "@mui/material";
+import Banner from "../Banner";
 
  const Header = () => {
     
@@ -13,20 +13,13 @@ import { Link } from "@mui/material";
                 <Boton color="secundario" tipo="contained"></Boton>
                 <Boton color="primario" tipo="contained"></Boton>
         </div>
-        <div className="contenedor_banner">
-            <img src="/images/banner.png" alt="banner"/>
-            <div className="contenedor_subBanner">
-                <div className="contenedor_titulo">
-                    <h1 className="titulo">Front End</h1>
-                    <h2>Challenge React</h2>
-                    <p>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</p>
-                </div>
-                <Link>
-                    <img src="/images/player.png"></img>
-                </Link>
-
-            </div>
-        </div>
+        <Banner 
+            imagenBanner="../images/banner.png"
+            imagenSubBanner="../images/player.png"
+            titulo="Front End"
+            subtitulo="Challenge React"
+            descripcion="Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React."
+        />
         </>
 
 

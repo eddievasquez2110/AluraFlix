@@ -1,0 +1,33 @@
+.contenedor_footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor_redes {
+    width: 150px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.contenedor_redes Link {
+    padding: 10px;
+}
+
+.icon {
+    color: #fff;
+    width: 100px;
+    height: 30px;
+}
+
+.contenedor_footer img {
+    width: 180px;
+}
+
+.contenedor_footer p{
+    padding-right: 50px;
+}
