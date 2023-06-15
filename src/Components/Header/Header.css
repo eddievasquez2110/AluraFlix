@@ -1,0 +1,48 @@
+
+
+.contenedor_header {
+    
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#000000;
+    border-bottom: #2A7AE4 solid;
+}
+
+.contenedor_header img {
+    width: 100px;
+    height: 50px;
+}
+
+.contenedor_banner{
+    position: relative;
+   
+    display: flex;
+}
+
+.contenedor_banner img {
+    width: 100%;
+}
+
+.contenedor_subBanner {
+    position: absolute;
+    columns: 2;
+    padding: 90px;
+    padding-top: 250px;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.contenedor_titulo {
+    color: white;
+}
+
+.titulo {
+    background-color: #6BD1FF;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
